@@ -5,7 +5,7 @@ Small javascript snippet intended to modify css and html elements to allow the o
 This guide assumes you will be using the following tooling.
 
 * Google Chrome developer tools
-* Contents of `srcnytPaywallToolkit.js` file.
+* Contents of `src/nytPaywallToolkit.js` file.
 
 ### Procedure 
 Navigate to the page displaying the paywall and follow the instruction: 
