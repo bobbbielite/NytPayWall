@@ -1,18 +1,18 @@
-var globalDisplayStyleName = "display";
-var globalDisplayStyleValue = "none";
-var paywallFooterIdName = "gateway-content";
-var gradientClassStyleName = "css-gx5sib"
-var positionElementClassName = "css-mcm29f";
-var positionStyleName = "position";
-var positionStyleValue = "relative"
+let globalDisplayStyleName = "display";
+let globalDisplayStyleValue = "none";
+let paywallFooterIdName = "gateway-content";
+let gradientClassStyleName = "css-gx5sib"
+let positionElementClassName = "css-mcm29f";
+let positionStyleName = "position";
+let positionStyleValue = "relative"
 
-var paywallFooter =
+let paywallFooter =
     document.getElementById(paywallFooterIdName);
 
-var siteContent =
+let siteContent =
     document.getElementsByClassName(gradientClassStyleName);
 
-var positionalElement =
+let positionalElement =
     document.getElementsByClassName(positionElementClassName);
 
 paywallFooter.style[globalDisplayStyleName] = globalDisplayStyleValue;
