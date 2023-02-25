@@ -8,7 +8,7 @@ This guide assumes you will be using the following tooling.
 * Contents of `srcnytPaywallToolkit.js` file.
 
 ### Procedure 
-
+Navigate to the page displaying the paywall and follow the instruction: 
 1. Press `Ctrl+Shift+I` to open Developer Tools in Chrome.
 2. Navigate to the `Sources` Tab.
 3. Select the `Snippets` tab within the Sources tab.
