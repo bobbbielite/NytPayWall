@@ -44,3 +44,7 @@ for (let index = 0; index < siteContent.length; index++) {
 }
 ```
 6. Press `Ctrl+Enter`.
+
+### So, you're wondering if you have to do this everytime? 
+
+No, you'll just have to open your saved snippet with `F12` and then use `Ctrl+Enter` to execute the javascript.
