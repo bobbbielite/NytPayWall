@@ -1,21 +1,3 @@
-# NytPayWall
-Small javascript snippet intended to modify css and html elements to allow the omission of a paywall. 
-
-## How to use
-This guide assumes you will be using the following tooling.
-
-* Google Chrome developer tools
-* Contents of `srcnytPaywallToolkit.js` file.
-
-### Procedure 
-
-1. Press `Ctrl+Shift+I` to open Developer Tools in Chrome.
-2. Navigate to the `Sources` Tab.
-3. Select the `Snippets` tab within the Sources tab.
-4. Click on the `+ New snippet` button.
-5. Copy and paste the following code into the editor: 
-
-```js
 var globalDisplayStyleName = "display";
 var globalDisplayStyleValue = "none";
 var paywallFooterIdName = "gateway-content";
@@ -42,5 +24,3 @@ for (let index = 0; index < siteContent.length; index++) {
     positionalElement[index]
         .style[positionStyleName] = positionStyleValue;
 }
-```
-6. Press `Ctrl+Enter`.
